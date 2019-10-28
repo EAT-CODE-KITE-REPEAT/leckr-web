@@ -1,0 +1,21 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "upload": "sh -c 'expo build:web && cp ./web-build/index.html ./web-build/200.html && surge web-build ${0}'",
+    "uploadAll": "yarn upload leckr.io && yarn upload karsens.com && yarn upload appsurd.net && yarn upload productbird.co && yarn upload appdevelopmentamsterdam.com"
+  },
+  "dependencies": {
+    "expo": "^35.0.0",
+    "react": "16.8.3",
+    "react-dom": "16.8.3",
+    "react-helmet": "^5.2.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
+    "react-native-gesture-handler": "^1.4.1",
+    "react-native-web": "^0.11.7",
+    "react-navigation": "^4.0.10"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^7.1.0"
+  },
+  "private": true
+}

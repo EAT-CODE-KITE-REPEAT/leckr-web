@@ -1,0 +1,69 @@
+{
+  "name": "LECKR",
+  "slug": "LECKR",
+  "domain": "leckr.io",
+  "noWebFooter": true,
+  "noWebHeader": true,
+  "webWrapperDisabled": true,
+  "email": "info@leckr.io",
+  "phoneNumber": "+31 20 2101 820",
+  "slogans": ["High-quality apps in no-time"],
+  "titles": ["High-quality apps in no-time"],
+  "ghostLink": "https://blog.karsens.com/ghost/api/v2/",
+  "ghostKey": "f986ca2d588b087644a1790df8",
+  "githubUser": "EAT-CODE-KITE-REPEAT",
+  "githubRepos": [
+    "expo-elements",
+    "expo-data-forms",
+    "expo-inputs",
+    "expo-sections"
+  ],
+
+  "layouts": [
+    {
+      "colors": {
+        "defaultText": "#000000",
+        "primary": "#EEEEEE",
+        "primaryLighter": "#FFFFFF",
+        "primaryDarker": "#DDDDDD",
+        "iconHighlightColor": "#177ffb",
+        "iosButtonColor": "#177ffb"
+      },
+      "style": {
+        "fontFamily": {
+          "title": "Arial Rounded MT Bold",
+          "text": "Arial"
+        }
+      }
+    }
+  ],
+  "labels": [
+    {
+      "domain": "productbird.co",
+      "name": "ProductBird",
+      "labelSlug": "productbird"
+    },
+    {
+      "domain": "leckr.io",
+      "name": "LECKR",
+      "labelSlug": "leckr"
+    },
+    {
+      "domain": "karsens.com",
+      "name": "Karsens",
+      "labelSlug": "karsens"
+    },
+
+    {
+      "domain": "appsurd.net",
+      "name": "Appsurd",
+      "labelSlug": "appsurd"
+    },
+
+    {
+      "domain": "appdevelopmentamsterdam.com",
+      "name": "App Development Amsterdam",
+      "labelSlug": "appdevelopmentamsterdam"
+    }
+  ]
+}
