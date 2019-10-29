@@ -80,7 +80,7 @@ class Home extends React.Component {
         <View>
           <Image
             style={{ width: 100, height: 100 }}
-            source={require("../assets/me.jpg")}
+            source={require("../assets/me.png")}
           />
 
           <Text>Wijnand Karsens</Text>
