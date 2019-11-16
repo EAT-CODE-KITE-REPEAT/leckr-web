@@ -41,6 +41,11 @@ const apps = [
     url: "https://apps.apple.com/ca/app/dunbar/id1457448974"
   },
   {
+    image: require("../assets/friendtime.png"),
+    name: "FriendTime",
+    url: "https://apps.apple.com/gb/app/friendtime-app/id1485717947"
+  },
+  {
     image: require("../assets/ovfiets.jpg"),
     name: "OV-Fiets",
     url: "https://apps.apple.com/us/app/ov-fiets-app/id1471996949"
@@ -73,7 +78,7 @@ class Home extends React.Component {
           <Text>
             Apps maken is moeilijk en extreem duur. Maar dan ken je mij nog
             niet! Ik heb een codebase ontwikkeld waarmee ik veel sneller te werk
-            kan gaan. Develop een app al vanaf €2000,-!
+            kan gaan.
           </Text>
         </View>
 
