@@ -75,11 +75,7 @@ class Home extends React.Component {
     return (
       <View style={{ flexDirection: "row", flexWrap: "wrap", marginTop: 20 }}>
         <View style={{ width: 200 }}>
-          <Text>
-            Apps maken is moeilijk en extreem duur. Maar dan ken je mij nog
-            niet! Ik heb een codebase ontwikkeld waarmee ik veel sneller te werk
-            kan gaan.
-          </Text>
+          <Text>Creating apps is hard and expensive. But have you met me?</Text>
         </View>
 
         <View>
@@ -92,7 +88,7 @@ class Home extends React.Component {
 
           <Button
             title="Contact"
-            onPress={() => Linking.openURL(Config.email)}
+            onPress={() => Linking.openURL("mailto:" + Config.email)}
           />
         </View>
       </View>
@@ -114,9 +110,7 @@ class Home extends React.Component {
 
   renderHeader() {
     return (
-      <Text style={{ fontSize: 30, marginVertical: 20 }}>
-        Hoi, ik maak apps.
-      </Text>
+      <Text style={{ fontSize: 30, marginVertical: 20 }}>Hi, I make apps.</Text>
     );
   }
 

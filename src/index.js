@@ -24,7 +24,7 @@ const navigation = createSwitchNavigator({
     screen: props => (
       <IPhone title={title} navigation={props.navigation}>
         <Text style={{ fontSize: 30, marginVertical: 20, textAlign: "center" }}>
-          Hoi, ik schrijf.
+          Hi, I write.
         </Text>
 
         <BloglistCompact {...props} />
@@ -37,7 +37,7 @@ const navigation = createSwitchNavigator({
     screen: props => (
       <IPhone title={title} navigation={props.navigation}>
         <Text style={{ fontSize: 30, marginVertical: 20, textAlign: "center" }}>
-          Hoi, ik codeer.
+          Hi, I code.
         </Text>
 
         <Repos {...props} />

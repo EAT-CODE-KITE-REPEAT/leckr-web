@@ -74,7 +74,7 @@ class Repos extends React.Component {
   render() {
     return (
       <View style={{ margin: 20 }}>
-        <Text>Hieronder kan je al mijn open-source repositories zien</Text>
+        <Text>Below you can find all my open-source repositories.</Text>
         <FlatList
           data={this.state.repos}
           renderItem={item => this.renderItem(item)}
